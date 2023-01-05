@@ -9,7 +9,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="container">
-      <Link to="/">
+      <Link to="/starwars">
         <img src={logo} alt="logo" />
       </Link>
       <Routes basename="/starwars/">
