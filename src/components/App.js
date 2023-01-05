@@ -12,8 +12,8 @@ const App = () => {
       <Link to="/">
         <img src={logo} alt="logo" />
       </Link>
-      <Routes>
-        <Route path="/" element={<MainPage />} />
+      <Routes basename="/starwars/">
+        <Route path="/starwars" element={<MainPage />} />
         <Route path="/product/:id" element={<Product />} />
       </Routes>
     </div>
